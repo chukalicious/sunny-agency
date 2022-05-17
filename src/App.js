@@ -1,36 +1,14 @@
-// import Navbar from "./components/Navbar";
-import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
-import AppBar from "@mui/material/AppBar";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
 
 function App() {
   return (
     <div>
-      <div>
-        <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="static">
-            <Toolbar>
-              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                sunnyside
-              </Typography>
-              <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-              >
-                <MenuIcon />
-              </IconButton>
-            </Toolbar>
-          </AppBar>
-        </Box>
-      </div>
+      <Box>
+        <Navbar />
+        <Header />
+      </Box>
     </div>
   );
 }
