@@ -17,12 +17,15 @@ const Header = () => {
           fontWeight: "bold",
           pt: 8,
           pb: 3,
+          pl: 1,
+          pr: 1,
           mb: 3,
           position: "relative",
           zIndex: "appBar",
+          color: "#f8feff",
+          wrap: "wrap",
         }}
-        variant="h3"
-        component="h1"
+        variant="h1"
         align="center"
       >
         We are creatives
@@ -30,13 +33,12 @@ const Header = () => {
       <ImageList
         sx={{
           flexDirection: "column",
-          mt: -21,
+          mt: -40,
         }}
         cols={1}
       >
         <ImageListItem
           sx={{
-            border: "red solid 1px",
             objectFit: "contain",
             height: "25%",
             mt: 0,
