@@ -7,13 +7,19 @@ import ImageList from "@mui/material/ImageList";
 
 const Header = () => {
   return (
-    <Box sx={{ backgroundColor: "#3dbefe", mt: -0.5 }}>
+    <Box
+      sx={{
+        backgroundColor: "#3dbefe",
+      }}
+    >
       <Typography
         sx={{
           fontWeight: "bold",
-          pt: 2,
+          pt: 8,
           pb: 3,
-          mb: 1,
+          mb: 3,
+          position: "relative",
+          zIndex: "appBar",
         }}
         variant="h3"
         component="h1"
@@ -22,13 +28,24 @@ const Header = () => {
         We are creatives
       </Typography>
       <ImageList
-        sx={{ mt: -5, flexDirection: "column", objectFit: "contain" }}
+        sx={{
+          flexDirection: "column",
+          mt: -21,
+        }}
         cols={1}
-        // rowHeight={420}
       >
-        <ImageListItem>
+        <ImageListItem
+          sx={{
+            border: "red solid 1px",
+            objectFit: "contain",
+            height: "25%",
+            mt: 0,
+          }}
+        >
           <img
-            // sx={{ height: "60vh" }}
+            sx={{
+              mt: 0,
+            }}
             src={imageHeader}
             alt="header"
             standard
