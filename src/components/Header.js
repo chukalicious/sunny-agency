@@ -50,7 +50,6 @@ const Header = () => {
             }}
             src={imageHeader}
             alt="header"
-            standard
           />
         </ImageListItem>
       </ImageList>
