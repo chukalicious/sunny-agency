@@ -1,6 +1,5 @@
 import ImageListItem from "@mui/material/ImageListItem";
 import imageHeader from "../images/mobile/imageHeader.jpg";
-import { palette } from "@mui/system";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import ImageList from "@mui/material/ImageList";
