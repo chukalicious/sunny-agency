@@ -1,4 +1,4 @@
-# practice creating and styling Material UI components
+# Practice creating and styling Material UI components
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
