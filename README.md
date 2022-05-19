@@ -1,8 +1,8 @@
 # Practice creating and styling Material UI components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mi intencion es hacer un record de las libraries instaladas e imitar el proceso para un proximo projecto.
 
-## Available Scripts
+## Areas a estudiar
 
 In the project directory, you can run:
 
