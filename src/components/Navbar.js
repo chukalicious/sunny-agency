@@ -8,7 +8,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 const Navbar = () => {
   return (
     <div>
-      <Box sx={{ flexGrow: 1, backgroundColor: "#3dbefe" }}>
+      <Box sx={{ flexGrow: 1, backgroundColor: "#3dbefe", border: "none" }}>
         <AppBar sx={{ backgroundColor: "#3dbefe" }} position="static">
           <Toolbar>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
